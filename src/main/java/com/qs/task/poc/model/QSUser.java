@@ -15,6 +15,6 @@ import javax.persistence.Table;
 @Table(name ="QS_User")
 public class QSUser {
     @Id
-    private  String userId;
+    private  String useremail;
     private String password;
 }
